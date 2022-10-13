@@ -93,7 +93,6 @@ func writeToFile() {
 		Status: Weather{Wind: wind,
 			Water: water},
 	}
-
 	file, _ := json.MarshalIndent(dataStatus, "", " ")
 
 	_ = ioutil.WriteFile("weather.json", file, 0644)
