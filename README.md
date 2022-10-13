@@ -10,6 +10,6 @@ sebuah microservice untuk meng-update sebuah file json setiap 15 detik dengan an
   
   "wind": 47
   
- }
- 
+  }
+  
 }
